@@ -1,0 +1,15 @@
+/*****************************************************************************/
+/* DoodlerIndex: Style */
+/*****************************************************************************/
+li:nth-child(odd) .col-sm-4{
+  color:white;
+  background-color:#0b576e;
+  font-size:20px;
+  padding:10px 0px 10px 0px;
+}
+li:nth-child(even) .col-sm-4{
+  color:white;
+  background-color:#4a84d6;
+  font-size:20px;
+  padding:10px 0px 10px 0px;
+}

@@ -1,0 +1,28 @@
+/*****************************************************************************/
+/* Global CSS Styles */
+/*****************************************************************************/
+body, html{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  background-color:#74a4ed;
+  font-family: "Roboto",sans-serif;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+}

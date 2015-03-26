@@ -1,0 +1,9 @@
+<template name="MasterLayout" class="Site">
+   <main class="Site-content">
+     <div class="container">
+       {{>yield region="header"}}
+     </div>
+      {{> yield}}
+   </main>
+   {{>yield region="footer"}}
+</template>
