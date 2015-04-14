@@ -3,13 +3,13 @@
 /*****************************************************************************/
 li:nth-child(odd) .col-sm-4{
   color:white;
-  background-color:#0b576e;
+  background-color:#47484B;
   font-size:20px;
   padding:10px 0px 10px 0px;
 }
 li:nth-child(even) .col-sm-4{
   color:white;
-  background-color:#4a84d6;
+  background-color:#1D1F21;
   font-size:20px;
   padding:10px 0px 10px 0px;
 }

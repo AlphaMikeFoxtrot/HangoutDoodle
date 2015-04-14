@@ -8,11 +8,12 @@ Template.DoodlerIndex.events({
    *
    *  }
    */
+   
 });
 
 Template.DoodlerIndex.helpers({
   'item':function(){
-    return Doodler.find({},{sort:{votes:1}});
+    return Doodler.find({},{sort:{votes:-1}});
   }
 });
 
